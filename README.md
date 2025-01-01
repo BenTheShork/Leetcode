@@ -4,7 +4,7 @@ A personal collection of my solutions to LeetCode's Top 150 Interview Questions.
 
 ## Solution Structure 📁
 
-Each solution includes my implementation with time/space complexity analysis and example test cases:
+Each solution includes my implementation
 
 ```javascript
 /**
@@ -13,7 +13,6 @@ Each solution includes my implementation with time/space complexity analysis and
  * @param {number} m - Number of elements in nums1
  * @param {number[]} nums2 - Second array to merge
  * @param {number} n - Number of elements in nums2
- * Time: O(m + n), Space: O(1)
  */
 var merge = function(nums1, m, nums2, n) {
     let i = m - 1, j = n - 1, k = m + n - 1;
